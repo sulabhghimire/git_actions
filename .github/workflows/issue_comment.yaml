@@ -1,0 +1,12 @@
+name: Create comment on new issuse
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  comment-with-action:
+    runs-on: ubuntu-latest
+    steps:
+      - 
+    
