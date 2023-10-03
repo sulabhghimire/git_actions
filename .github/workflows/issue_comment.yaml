@@ -36,5 +36,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ORGANIZATION: ${{ github.event.organisation.login }}
-          REPOSITORY: ${{ github.event.repository.name }} 
+          REPOSITORY: ${{ github.event.user.name }} 
           ISSUE_NUMBER: ${{ github.event.issue.number }}
